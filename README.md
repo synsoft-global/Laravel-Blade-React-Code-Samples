@@ -1,4 +1,4 @@
-# Sample file for Controller, Blade and Blade with React.
+# Sample files for Controller, Blade and Blade with React.
 
 ## Blade folder
 
