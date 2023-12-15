@@ -1,3 +1,12 @@
+/**
+ * Description: 
+ *   This component provides a user interface for overwriting 
+ *   a specific attribute associated with a user profile. It communicates with the server to update 
+ *   and remove overwrites, providing real-time feedback to the user.
+ * Version: 1.0.0
+ * Author: Synsoft Global
+ * Author URI: https://www.synsoftglobal.com/
+ */
 import React, {useState}              from 'react';
 import ApiClient, {cancelTokenSource} from "../../../../../../../utilities/ApiClient";
 import swal                           from "sweetalert";
@@ -10,7 +19,7 @@ import DeleteIcon                     from "@material-ui/icons/Delete";
 
 export const Overwrite = ({profileId, value, identifier, setValue, overwriteEndpoint, title, inputType, inputProps, inputLabelProps}) => {
     // State to manage loading state during API requests
-    const [loading, setLoading]   = useState(false);
+    const [loading, setLoading] = useState(false);
     // State to manage the input value for overwriting
     const [valueInput, setValueInput] = useState(value ?? '');
     
