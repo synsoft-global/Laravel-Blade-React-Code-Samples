@@ -1,7 +1,7 @@
 <?php
 /**
  * Automation controller to handle all the operations regarding happy hour, FB live contests
- * funpack and youtube contest
+ * funpack and youtube contest.
  */
 namespace App\Http\Controllers\Automations;
 
